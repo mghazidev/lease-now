@@ -1,0 +1,36 @@
+.about-component {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.about {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.column1 {
+    flex-basis:50%;
+}
+
+.column2 {
+    flex-basis: 40%;
+}
+
+.column2 h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.column2 h1 span {
+    color: teal;
+}
+
+.column2 .icon {
+    color: teal;
+    margin: 0;
+    padding: 0;
+}

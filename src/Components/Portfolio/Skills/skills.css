@@ -1,0 +1,56 @@
+.skills-component {
+    width: 80%;
+    margin: auto;
+}
+
+.skills {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.dropdown {
+    width: 100%;
+}
+
+.dropdown {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content {
+    flex-basis: 50%;
+}
+
+.name {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+    justify-content: space-between;
+}
+
+.name .icon {
+    color: teal;
+    background: transparent;
+}
+
+.category {
+    padding: 10px;
+    border-radius: 10px;
+    height: 30px;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+
+.category:hover {
+    background: #d3e0e6;
+    color: #000;
+    transition: 0.3s ease-in;
+}
+
+.category span {
+    margin-top: 20px;
+    
+}
+

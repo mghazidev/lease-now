@@ -1,0 +1,22 @@
+.portfolio-component {
+    width: 70%;
+    margin: auto;
+}
+
+.portfolio {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.headings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: rgb(83, 161, 161);
+}
+
+.active {
+    color: teal;
+  }
+  
+ 

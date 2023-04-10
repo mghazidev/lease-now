@@ -1,0 +1,63 @@
+.contact-component {
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+}
+
+.contact {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.contact form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.table {
+    width: 60%;
+    margin: auto;
+}
+
+.table label {
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.table input {
+    color: goldenrod;
+    font-size: 11px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid goldenrod;
+}
+
+.table textarea {
+    border: 1px solid goldenrod;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 11px;
+    font-weight: 900;
+    color: goldenrod;
+    margin-bottom: 10px;
+}
+
+.table button {
+    border-radius: 10px;
+    border: none;
+    padding: 12px;
+    width: 20%;
+    margin: auto;
+    font-size: 12px;
+    font-weight: 600;
+    color: goldenrod;
+    background-color: #333;
+    transition: 0.3s ease;
+}
+
+.table button:hover {
+    background-color: #444;
+    color: gold;
+}
+

@@ -1,0 +1,64 @@
+.application-component {
+    width: 80%;
+    margin: auto;
+}
+
+.application {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.wrap-1 {
+    background-color: purple;
+    color: #fff;
+    flex-basis: 25%;
+    border-radius: 10px;
+    padding: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.wrap-1:hover {
+    background-image: linear-gradient(to top, orange, purple);
+}
+
+.wrap-2 {
+    background-color: orange;
+    border-radius: 10px;
+    padding: 15px;
+    flex-basis: 55%;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    cursor: pointer;
+}
+
+.wrap-2:hover {
+    background-image: linear-gradient(to bottom, purple, orange);
+}
+
+.wrap-1 p,
+.wrap p {
+    color: rgb(239, 239, 239);
+    font-weight: 400;
+    font-size: small;
+}
+
+.wrap-1 h1,
+.wrap h1 {
+    font-size: 30px;
+}
+
+
+.mob {
+    margin-right: 20px;
+}
+
+.mob img {
+    width: 150px;
+}
