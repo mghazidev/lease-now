@@ -1,7 +1,6 @@
 import './navbar.css';
 import svg from './images/Screenshot_2023-04-05_171402-removebg-preview (1).png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHandsClapping } from '@fortawesome/free-solid-svg-icons';
 import { faMagnifyingGlass} from '@fortawesome/free-solid-svg-icons';
 
 import { NavLink } from 'react-router-dom';

@@ -1,0 +1,130 @@
+.Car-component {
+    width: 90%;
+    margin: auto;
+}
+
+.car-listing {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.head {
+    text-align: center;
+    width: 25%;
+    margin: auto;
+}
+
+.head h2 {
+    font-weight: 600;
+}
+
+
+.head h1 {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.head p {
+    margin: 20px auto;
+    font-weight: 400;
+    color: gray;
+}
+
+.listing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.models ul {
+    list-style-type: none;
+}
+
+.models ul li {
+    padding: 10px;
+    background-color: aliceblue;
+    margin: 5px;
+}
+
+.models ul li a {
+    padding-right: 60px;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.models ul li:hover {
+    background-color: #f2c102 ;
+}
+
+.car-image img {
+    width: 500px;
+    background-position: center;
+    background-size: covers;
+}
+
+.specification {
+    width: 170px;
+}
+
+.rent {
+    width: 100%;
+    padding: 10px;
+    background-color: #f2c102;
+    color: #fff;
+   
+}
+
+.rent span {
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.details {
+    border-top: none;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.details ul  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    border: 1px solid black;
+    text-align: center;
+    border-top: none;
+}
+
+.details ul li  {
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 9px;
+}
+
+.col {
+    display: flex;
+}
+
+.specification button {
+    width: 100%;
+    text-align: center;
+}
+
+.btn {
+    padding: 10px;
+    background-color: #f2c102;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 7s00;
+}
