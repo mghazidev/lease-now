@@ -1,7 +1,6 @@
 import './car.css'
-import car from './images/hero1.png';
 
-function Car() {
+function Car(props) {
     return (
         <>
             <div className='Car-component'>
@@ -13,60 +12,59 @@ function Car() {
                     </div>
                     <div className='listing'>
                         <div className='models'>
-                            <ul>
-                                <li><a href=''>Toyota</a></li>
+                            <ul><li><a href=''>Toyota</a></li>
                                 <li><a href=''>Honda</a></li>
                                 <li><a href=''>Mercedes</a></li>
                                 <li><a href=''>Audi</a></li>
                                 <li><a href=''>Suzuki</a></li>
-                                <li><a href=''>Bugatti</a></li>
+                                <li><a href=''>Bugatti</a></li> 
                             </ul>
                         </div>
                         <div className='car-image'>
-                                <img src={car}></img>
+                                <img src={props.image} alt={props.image}></img>
                         </div>
                         <div className='specification'>
                             <div className='rent'>
-                            <span>  $50 / rent per day </span>
+                            <span>  ${props.rentPerDay} / rent per day </span>
                             </div>
                             <div className='details'>
                                 <ul className='col'>
                                     <li>Model</li>
                                     |
-                                    <li>Benz GLK</li>
+                                    <li>{props.model}</li>
                                 </ul>
                                 <ul className='col'>
                                     <li>Mark</li>
                                     |
-                                    <li>Mercedes</li>
+                                    <li>{props.make}</li>
                                 </ul>
                                 <ul className='col'>
                                     <li>Year</li>
                                     |
-                                    <li>2006</li>
+                                    <li>{props.year}</li>
                                 </ul>
                                 <ul className='col'>
                                     <li>Doors</li>
                                     |
-                                    <li>4/5</li>
+                                    <li>{props.doors}</li>
                                 </ul>
                                 
                                 <ul className='col'>
                                     <li>AC</li>
                                     |
-                                    <li>Yes</li>
+                                    <li>{props.ac}</li>
                                 </ul>
                                 
                                 <ul className='col'>
                                     <li>Transmission</li>
                                     |
-                                    <li>Manual</li>
+                                    <li>{props.transmission}</li>
                                 </ul>
                                 
                                 <ul className='col'>
                                     <li>Fuel</li>
                                     |
-                                    <li>Diesel</li>
+                                    <li>{props.fuel}</li>
                                 </ul>
                             </div>
                         <button className='btn'>

@@ -12,9 +12,7 @@ function Navbar() {
                 <div className='component'>
                     <div className='navbar'>
                         <div className='logo'>
-                             {/*<FontAwesomeIcon className='icon' icon={faHandsClapping} />*/}
                                 <img src={svg} alt={svg}></img>
-                                
                         </div>
                         <div className='menu'>
                             <ul>

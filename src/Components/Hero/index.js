@@ -2,8 +2,10 @@ import './hero.css';
 import { useKeenSlider } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
 import React from 'react';
-
+import hero2 from './images/hero2.png';
+import hero3 from './images/hero3.png';
 import hero1 from './images/hero1.png';
+import hero4 from './images/hero4.png';
 
 function Hero() {
     const [sliderRef] = useKeenSlider();
@@ -38,7 +40,7 @@ function Hero() {
                             </button>
                         </div>
                         <div className='image'>
-                            <img src={hero1} alt= {hero1}></img>
+                            <img src={hero2} alt= {hero2}></img>
                         </div>
                     </div>
                     
@@ -54,7 +56,7 @@ function Hero() {
                             </button>
                         </div>
                         <div className='image'>
-                            <img src={hero1} alt= {hero1}></img>
+                            <img src={hero3} alt= {hero3}></img>
                         </div>
                     </div>
                     
@@ -70,7 +72,7 @@ function Hero() {
                             </button>
                         </div>
                         <div className='image'>
-                            <img src={hero1} alt= {hero1}></img>
+                            <img src={hero4} alt= {hero4}></img>
                         </div>
                     </div>
                     
