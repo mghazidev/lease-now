@@ -1,0 +1,55 @@
+.company-component {
+    width: 50%;
+    margin: 30px auto;
+}
+
+.company {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.column {
+    width: 50%;
+}
+
+.column h4 {
+    font-size: 16px;
+    color: #f2c102;
+}
+
+.column h1 {
+    font-size: 38px;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.column p {
+    margin-bottom: 15px;
+}
+
+.about-image {
+    margin: auto;
+    background-position: center;   
+}
+
+.col3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.inner h5 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #f2c102;
+}
+
+.inner h5 span {
+    font-weight: bold;
+    color: #333;
+    font-size: 17px;
+}

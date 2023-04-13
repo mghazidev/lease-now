@@ -12,12 +12,12 @@ function Car(props) {
                     </div>
                     <div className='listing'>
                         <div className='models'>
-                            <ul><li><a href=''>Toyota</a></li>
-                                <li><a href=''>Honda</a></li>
-                                <li><a href=''>Mercedes</a></li>
-                                <li><a href=''>Audi</a></li>
-                                <li><a href=''>Suzuki</a></li>
-                                <li><a href=''>Bugatti</a></li> 
+                            <ul><li><button>Toyota</button></li>
+                                <li><button>Honda</button></li>
+                                <li><button>Mercedes</button></li>
+                                <li><button>Audi</button></li>
+                                <li><button>Suzuki</button></li>
+                                <li><button>Bugatti</button></li> 
                             </ul>
                         </div>
                         <div className='car-image'>

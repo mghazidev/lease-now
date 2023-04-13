@@ -47,19 +47,19 @@
 }
 
 .models ul li {
-    padding: 10px;
     background-color: aliceblue;
     margin: 5px;
 }
 
-.models ul li a {
-    padding-right: 60px;
+.models ul li button {
     font-weight: 600;
     font-size: 16px;
+    width: 150px;
+    padding: 15px;
     text-decoration: none;
 }
 
-.models ul li:hover {
+.models ul li button:hover {
     background-color: #f2c102 ;
 }
 

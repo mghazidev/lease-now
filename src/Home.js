@@ -1,8 +1,6 @@
 import Hero from './Components/Hero';
 import Footer from './Components/Footer';
 import Car from './Components/Portfolio/Car';
-import carData from './Components/Portfolio/Car/vehicle';
-
 import car1 from './Components/Portfolio/Car/images/hero1.png';
 
 
@@ -10,6 +8,7 @@ function Home() {
     
 const carData = 
     {
+      id:'1',
       model: 'Benz GLK',
       make: 'Mercedes',
       year: '2006',
@@ -20,6 +19,7 @@ const carData =
       rentPerDay: 37,
       image: car1,
     }
+
     return (
         <>
             <Hero />

@@ -3,8 +3,47 @@
     margin: auto;
 }
 
-
+.header {
+    width: 100%;
+}
 
 .title {
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./images/car-30990.png);
+    background-image: linear-gradient(rgb(255, 255, 255),rgba(255, 255, 255, 0.511)),url(./images/car-30990.png);
+    background-position: center;
+    height: 600px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title h1 {
+    margin-top: 40px;
+    background-color: transparent;
+    font-size: 120px;
+    font-weight: 500;
+    text-align: center;
+    color: #f2c102;
+}
+
+.title h2 {
+    text-align: center;
+    font-size: 26px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.title button {
+    padding: 15px;
+    background-color: #f2c102;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.title button:hover {
+    background-color: red;
 }
