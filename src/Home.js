@@ -1,34 +1,40 @@
 import Hero from './Components/Hero';
-import About from './Components/About';
-import Portfolio from './Components/Portfolio';
-import Application from './Components/Application';
 import Footer from './Components/Footer';
 import Car from './Components/Portfolio/Car';
 import carData from './Components/Portfolio/Car/vehicle';
 
+import car1 from './Components/Portfolio/Car/images/hero1.png';
+
+
 function Home() {
+    
+const carData = 
+    {
+      model: 'Benz GLK',
+      make: 'Mercedes',
+      year: '2006',
+      doors: '4/5',
+      ac: 'Yes',
+      transmission: 'Manual',
+      fuel: 'Diesel',
+      rentPerDay: 37,
+      image: car1,
+    }
     return (
         <>
             <Hero />
-            {
-                carData.map((value, index) => {
-                    return <Car
-                        key={index}
-                        model={value.model}
-                        make={value.make}
-                        year={value.year}
-                        doors={value.doors}
-                        ac={value.ac}
-                        transmission={value.transmission}
-                        fuel={value.fuel}
-                        rentPerDay={value.rentPerDay}
-                        image={value.image}
+                    <Car
+                        model={carData.model}
+                        make={carData.make}
+                        year={carData.year}
+                        doors={carData.doors}
+                        ac={carData.ac}
+                        transmission={carData.transmission}
+                        fuel={carData.fuel}
+                        rentPerDay={carData.rentPerDay}
+                        image={carData.image}
                     />
-                })
-            }
             <Footer />
-            
-            
         </>
     )
 }

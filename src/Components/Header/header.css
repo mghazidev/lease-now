@@ -1,0 +1,10 @@
+.Header-Component {
+    width: 100%;
+    margin: auto;
+}
+
+
+
+.title {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./images/car-30990.png);
+}
