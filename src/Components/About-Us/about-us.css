@@ -1,0 +1,57 @@
+.About-Us-component {
+    width: 90%;
+    margin: auto;
+
+}
+
+.Compo {
+    width: 60%;
+    margin: auto;
+}
+
+.upper {
+    text-align: center;
+    
+}
+
+.upper h3 {
+    font-family: Rubik, sans-serif;
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-top: 80px;
+}
+
+.upper h1 {
+    font-family: Poppins,sans-serif;
+    font-size: 4.2rem;
+    margin: 1.3rem 0 3rem;
+}
+
+.article {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.card {
+    flex-basis: 26%;
+    text-align: center;
+}
+
+.card img {
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.card p {
+    color: #706f7b;
+    font-family: Rubik,sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.43;
+}
