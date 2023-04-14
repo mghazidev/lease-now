@@ -1,12 +1,47 @@
 .contact-component {
-    width: 80%;
-    height: 100vh;
+    width: 100%;
     margin: auto;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgb(255, 255, 255),rgba(255, 255, 255, 0.511)),url(./Components/Header/images/car-30990.png);
 }
 
 .contact {
-    margin-top: 20px;
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+    margin: 50px auto;
+    height: 600px;
+    align-items: center;
+}
+
+.info {
+    flex-basis: 50%;
+}
+
+.info h2 {
+    font-size: 4.2rem;
+    line-height: 1.3;
+    margin-bottom: 2rem;
+}
+
+.info p {
+    color: #706f7b;
+    font-family: Rubik,sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.information p {
+    color: #010103;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    transition: all .2s;
 }
 
 .contact form {
@@ -15,10 +50,6 @@
     flex-direction: column;
 }
 
-.table {
-    width: 60%;
-    margin: auto;
-}
 
 .table label {
     font-weight: 500;
@@ -27,32 +58,29 @@
 
 .table input {
     color: goldenrod;
+    background-color: aliceblue;
     font-size: 11px;
     padding: 10px;
-    border-radius: 10px;
-    border: 1px solid goldenrod;
 }
 
 .table textarea {
-    border: 1px solid goldenrod;
-    border-radius: 10px;
     padding: 10px;
     font-size: 11px;
+    background-color: aliceblue;
     font-weight: 900;
     color: goldenrod;
     margin-bottom: 10px;
 }
 
 .table button {
-    border-radius: 10px;
     border: none;
     padding: 12px;
-    width: 20%;
+    width: 100%;
     margin: auto;
     font-size: 12px;
-    font-weight: 600;
-    color: goldenrod;
-    background-color: #333;
+    font-weight: 800;
+    color: #fff;
+    background-color: #f2c102;
     transition: 0.3s ease;
 }
 
