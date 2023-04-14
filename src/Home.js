@@ -2,6 +2,7 @@ import Hero from './Components/Hero';
 import Footer from './Components/Footer';
 import Car from './Components/Portfolio/Car';
 import car1 from './Components/Portfolio/Car/images/hero1.png';
+import Tag from './Components/Tag';
 
 
 function Home() {
@@ -34,6 +35,7 @@ const carData =
                         rentPerDay={carData.rentPerDay}
                         image={carData.image}
                     />
+                    <Tag />
             <Footer />
         </>
     )

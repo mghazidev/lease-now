@@ -1,7 +1,7 @@
 import React from 'react';
 import './contact.css';
-import Header from './Components/Header';
 import Footer from './Components/Footer';
+import Tag from './Components/Tag';
 
 
 function Contact() {
@@ -31,6 +31,7 @@ function Contact() {
                     </div>
                 </div>
             </div>
+            <Tag />
             <Footer />
         </>
     )

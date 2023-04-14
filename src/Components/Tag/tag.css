@@ -1,0 +1,29 @@
+.Tag-component {
+    width: 100%;
+    margin: 50px auto;
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    background-image: linear-gradient(rgb(35, 34, 34),rgba(15, 15, 15, 0.511)),url(./images/car-30990.png);
+}
+
+.tag {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+
+.tag h1 {
+    color: #fff;
+    font-size: 2.4rem;
+}
+
+.tag h1 span {
+    color: #f2c102;
+    margin-left: 20px;
+}
+
